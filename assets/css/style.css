@@ -1,12 +1,17 @@
+/* makes the entire page have an invisible border*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* changes the background color on the body element */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* adjusts the links at the top of the page such as their fonts and color*/
 
 .header {
     padding: 20px;
@@ -59,11 +64,14 @@ p {
     background-position: center;
 }
 
+/* tells image to float on the left hand side out 25 pixels*/
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* tells image to float on the right hand side out 25 pixels*/
 .float-right {
     float: right;
     margin-left: 25px;
@@ -85,6 +93,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/*adjusts the aside element of the page by setting how far it is from the margin and the text color*/
 
 .benefit-lead {
     margin-bottom: 32px;
